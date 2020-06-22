@@ -2,6 +2,9 @@ Minimal yolov4 with tensorflow2
 
 
 
+# load darlnet weights(.weight)
+https://drive.google.com/file/d/1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT/view
+
 # usage 
 
 ## image detect
@@ -12,8 +15,8 @@ python yolo_demo.py --image_path [image_path]
 python yolo_demo.py --video_path [video_path] 
 
 
-# ！！！
-train_with_gradientTape.py won't work well!
+# 
+!!! train_with_gradientTape.py won't work well!
 Try not use it!
 
 
