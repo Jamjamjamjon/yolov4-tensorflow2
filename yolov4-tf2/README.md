@@ -1,4 +1,4 @@
-# Minimal yolov4 with tensorflow2
+# yolov4 with tensorflow2
 
 
 
