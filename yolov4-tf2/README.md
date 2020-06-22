@@ -2,26 +2,32 @@
 
 
 
-# load darlnet weights(.weight)
+## load darlnet weights(.weight)
 https://drive.google.com/file/d/1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT/view
 
-# usage 
 
-## image detect
+
+## usage 
+### image detect
+
+```
 python yolo_demo.py
 python yolo_demo.py --image_path [image_path] 
+```
 
-## video detect
+### video detect
+
+```
 python yolo_demo.py --video_path [video_path] 
+```
 
-
-# 
+## Try not use it!
 !!! train_with_gradientTape.py won't work well!
-Try not use it!
 
 
 
-# not yet
+
+## not yet
 
 - train.py file
 - NO keras.model.fit()
@@ -48,7 +54,7 @@ Try not use it!
 
 
 
-# some data shape info
+## some data shape info
 
 1. input_layer -> [608, 608, 3] , keras.Input()
 2. YOLOv4 -> sbox: (none, 76, 76, 255),
